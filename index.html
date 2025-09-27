@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-container" id="loginPage">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+    <h2>WhatsApp Login</h2>
+    <input type="text" id="phone" class="input-field" placeholder="Phone Number">
+    <input type="password" id="password" class="input-field" placeholder="Password">
+    <button class="login-btn" onclick="login()">Login</button>
+    <p class="error" id="errorMsg"></p>
+  </div>
+
+  <div class="success-page" id="successPage">
+    <h1>✅ Login Successful</h1>
+    <p>Welcome to WhatsApp Web!</p>
+  </div>
+  <script src="javascriptt.js"></script>
+</body>
+</html>
